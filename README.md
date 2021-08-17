@@ -1,1 +1,2 @@
-# ms-customer-bank-jp
+# ms-customer-j
+microservices customer
