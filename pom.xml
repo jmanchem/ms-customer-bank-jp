@@ -9,12 +9,14 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bootcamp</groupId>
-	<artifactId>ms-customer-j</artifactId>
+	<artifactId>ms-customer-bank-jp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ms-customer-j</name>
-	<description>ms-customer-j</description>
+	<name>ms-customer-bank-jp</name>
+	<description>ms-customer-bank-jp</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>1.8</java.version>
+		<maven.compiler.source>8</maven.compiler.source>
+		<maven.compiler.target>8</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>

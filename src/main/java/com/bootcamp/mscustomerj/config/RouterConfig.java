@@ -14,10 +14,10 @@ import static org.springframework.web.reactive.function.server.RouterFunctions.r
 public class RouterConfig {
     @Bean
     public RouterFunction<ServerResponse> rute(CustomerHandler handler){
-        return route(GET("/customer-j"), handler::findAll)
-            .andRoute(POST("/customer-j"),handler::create)
-            .andRoute(GET("/customer-j/{idCustomer}"),handler::findById)
-            .andRoute(GET("/customer-j/identityNumber/{customerIdentityNumber}"), handler::findByCustomerIdentityNumber)
-            .andRoute(POST("/customer-j/update"),handler::update);
+        return route(GET("/customer-bank-jp"), handler::findAll)
+            .andRoute(POST("/customer-bank-jp"),handler::create)
+            .andRoute(GET("/customer-bank-jp/{idCustomer}"),handler::findById)
+            .andRoute(GET("/customer-bank-jp/identityNumber/{customerIdentityNumber}"), handler::findByCustomerIdentityNumber)
+            .andRoute(POST("/customer-bank-jp/update"),handler::update);
     }
 }
